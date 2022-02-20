@@ -1,0 +1,121 @@
+/* About Section */
+/* #about{
+	display: flex;
+	justify-content:space-around;
+	width: 100%;
+}
+
+.col-left {
+	width: 40%;
+	margin-left: 100px;
+	margin-right: 50px;
+}
+.col-right {
+	width: 60%;
+	align-items: center;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+.col-right h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	margin-bottom: 10px;
+}
+.col-right p {
+	margin-bottom: 20px;
+}
+
+.col-left .about-img {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	border: 10px solid white;
+	z-index: -1;
+}
+.col-left .about-img::after {
+	content: '';
+	position: absolute;
+	left: -33px;
+	top: 19px;
+	height: 98%;
+	width: 98%;
+	border: 7px solid #355E3B;
+	z-index: -1;
+} */
+/* End About Section */
+
+#about {
+	display: flex;
+	justify-content:space-around;
+	width: 100%;
+	/* flex-direction: column-reverse; */
+	/* text-align: center;
+	margin: 0 auto;
+	padding: 100px 20px; */
+}
+.col-left {
+	width: 40%;
+	margin-left: 100px;
+	margin-right: 50px;
+}
+.col-right {
+	width: 60%;
+	align-items: center;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+.col-right h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	margin-bottom: 10px;
+}
+.col-right p {
+	margin-bottom: 20px;
+}
+
+#about .col-left .about-img {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	border: 10px solid white;
+}
+#about .col-left .about-img::after {
+	content: '';
+	position: absolute;
+	left: -33px;
+	top: 19px;
+	height: 98%;
+	width: 98%;
+	border: 7px solid #355E3B;
+	z-index: -1;
+}
+
+/* Media Query For Tablet */
+@media only screen and (min-width: 360px) {
+	/* About */
+	/* #about {
+		flex-direction: row;
+	}
+	#about .col-left {
+		width: 600px;
+		height: 400px;
+		padding-left: 60px;
+	}
+	#about .col-left .about-img::after {
+		left: -45px;
+		top: 34px;
+		height: 98%;
+		width: 98%;
+		border: 10px solid #355E3B;
+	}
+	#about .col-right {
+		text-align: left;
+		padding: 30px;
+	}
+	#about .col-right h1 {
+		text-align: left;
+	} */
+	/* End About */
+}
